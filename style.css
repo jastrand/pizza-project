@@ -1,0 +1,9 @@
+body {
+  background-image: url(/pizza-bg.jpeg);
+}
+
+.order-form {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
