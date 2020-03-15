@@ -2,8 +2,34 @@ body {
   background-image: url(/pizza-bg.jpeg);
 }
 
-.order-form {
+h1 {
   color: white;
+}
+
+p.smaller {
+  font-size: 15px;
+}
+
+.order-form {
+  display: flex;
+  color: black;
   text-align: center;
   font-size: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  font-size: 40px;
+  background: green;
+  border: 2px solid;
+  margin-top: 5px;
+  color: white;
+}
+
+.menu {
+  background: white;
+  width: 400px;
+  border-radius: 10%;
 }
